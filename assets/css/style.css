@@ -37,3 +37,17 @@ h4.ui.header {
 .column.right.aligned {
   box-shadow: 2px 0px 0px 0px grey;
 }
+@media screen and (max-width: 600px) {
+  h1.ui.header {
+    width: unset;
+  }
+}
+@media screen and (max-width: 750px) {
+  main {
+    margin: 0;
+    padding: 0;
+  }
+  .column.right.aligned {
+    text-align: left !important;
+    }
+}
