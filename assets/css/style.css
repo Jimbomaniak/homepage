@@ -8,10 +8,15 @@ main {
   margin: 20px 60px 0px 60px;
   padding: 20px;
 }
+p {
+  font-family: 'Quicksand', sans-serif;
+}
 h1.ui.header,
+h2.ui.header,
 h4.ui.header {
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-weight: 300;
 }
 h1.ui.header {
   width: 400px;
@@ -35,7 +40,7 @@ h4.ui.header {
   border: none;
 }
 .column.right.aligned {
-  box-shadow: 2px 0px 0px 0px grey;
+  box-shadow: 4px 0px 0px 0px #1a1a1a2e;
 }
 @media screen and (max-width: 600px) {
   h1.ui.header {
